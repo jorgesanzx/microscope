@@ -37,7 +37,7 @@ Template.postsList.onRendered(function() {
       // reset everything to 0, animated
       $node.addClass('animate').css('top', 0);
       $inBetween.addClass('animate').css('top', 0);
-    }
+    },
     removeElement: function(node) {
       $(node).fadeOut(function() {
         $(this).remove();
